@@ -1,0 +1,43 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.Rate
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5em;
+}
+.Rate input
+{
+    margin-top: 20px;
+    border: 1px solid #e1ebe2;
+    padding: 20px 15px;
+    width: 300px;
+}
+.Rate button
+{
+    width: 250px;
+    padding: 12px 0;
+    border-radius: 8px;
+    margin-top: 25px;
+    background-color: #eb7457;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+#span
+{
+    margin-top: 20px;
+}
