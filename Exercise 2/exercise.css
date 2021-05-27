@@ -1,0 +1,46 @@
+*
+{
+    box-sizing: border-box;
+    font-family: Segoe UI;
+}
+body
+{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.container
+{
+    border: 1px solid rgb(216, 211, 211);
+    width: 850px;
+    height: 51px;
+}
+.container .box
+{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(250, 37, 37);
+    margin-left: 0;
+    transition: margin-left 0.7s;
+}
+.numbers
+{
+    width: 850px;
+    display: flex;
+    justify-content: space-between;
+}
+.buttons button
+{
+    margin: 10px 4px 0 4px;
+    padding: 8px 15px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 14px;
+    background-color: #ff9408;
+    cursor: pointer;
+}
