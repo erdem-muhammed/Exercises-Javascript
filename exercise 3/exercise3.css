@@ -27,6 +27,7 @@ body
     position: absolute;
     top: 0;
     left: 0;
+    transition: opacity ease 1s;
 }
 #image1
 {
@@ -86,6 +87,10 @@ body
     color: white;
     font-weight: bold;
     font-size: 3.5em;
+}
+#text1, #text2, #text3
+{
+    transition: opacity ease 1s;
 }
 #text2, #text3
 {
