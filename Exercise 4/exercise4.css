@@ -1,0 +1,79 @@
+*
+{
+    box-sizing: border-box;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body
+{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+.container
+{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.buttons input
+{
+    padding: 12px 15px;
+    width: 150px;
+    border: 1px solid rgb(158, 151, 151);
+    border-radius: 8px;
+    background-color: rgb(238, 225, 225);
+}
+.calculate button
+{
+    width: 332px;
+    margin-top: 20px;
+    padding: 12px 15px;
+    outline: none;
+    border: 1px solid rgb(145, 143, 143);
+    border-radius: 8px;
+    background-color: rgb(97, 77, 77);
+    color: white;
+    margin-right: 24px;
+    cursor: pointer;
+}
+.container2
+{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box
+{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(238, 225, 225);
+    border-radius: 8px;
+}
+.container2 .buttons2
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.buttons2 button
+{
+    margin: 10px 0 5px 0;
+    border-radius: 8px;
+    border: 1px solid rgb(90, 82, 82);
+    background-color: rgb(109, 107, 107);
+    color: white;
+    outline: none;
+    cursor: pointer;
+    padding: 9px 18px;
+}
+.buttons2 button:hover:active
+{
+    background-color: rgb(44, 42, 40);
+}
