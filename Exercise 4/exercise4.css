@@ -55,6 +55,7 @@ body
     height: 150px;
     background-color: rgb(238, 225, 225);
     border-radius: 8px;
+    transition: background-color ease 3s;
 }
 .container2 .buttons2
 {

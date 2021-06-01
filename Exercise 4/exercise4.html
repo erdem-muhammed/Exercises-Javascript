@@ -10,22 +10,23 @@
 <body>
     <div class="container">
       <div class="buttons">
-        <input type="text" placeholder="Number 1">
+        <input type="text" placeholder="Number 1" id="number1">
         +
-        <input type="text" placeholder="Number 2">
+        <input type="text" placeholder="Number 2" id="number2">
         =
+        <span id="total"></span>
       </div> 
       
       <div class="calculate">
-          <button>Calculate</button>
+          <button onclick="calc()">Calculate</button>
       </div> 
     </div>
 
     <div class="container2">
-        <div class="box"></div>
+        <div class="box" id="box"></div>
         <div class="buttons2">
-            <button>Blue</button>
-            <button>Red</button>
+            <button onclick="blue();">Blue</button>
+            <button onclick="red();">Red</button>
         </div>
 
     </div>
