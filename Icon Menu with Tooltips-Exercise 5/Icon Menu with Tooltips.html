@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <ul class="menu">
+            <li class="active" onclick="active(this)">
+                <div>
+                <i class="fa fa-home fa-2x"></i>
+                <span class="text">Home</span>
+                </div>
+            </li>
+            <li onclick="active(this)">
+                <i class="fab fa-apple fa-2x"></i>
+                <span class="text">MacOS</span>
+            </li>
+            <li onclick="active(this)">
+                <i class="fab fa-windows fa-2x"></i>
+                <span class="text">Windows</span>
+            </li>
+            <li onclick="active(this)">
+                <i class="fab fa-android fa-2x"></i>
+                <span class="text">Android</span>
+            </li>
+            <li onclick="active(this)">
+                <i class="fab fa-ubuntu fa-2x"></i>
+                <span class="text">Ubuntu</span>
+            </li>
+            <li onclick="active(this)" class="search">
+                <i class="fa fa-search fa-2x"></i>
+                <span class="text">Search</span>
+                <div id="searchBox">
+                    <input type="text" id="searchinput" placeholder="Enter Search Term">
+                </div>
+            </li>
+        </ul>
+    </header>
+    <script src="script.js"></script>
+</body>
+</html>

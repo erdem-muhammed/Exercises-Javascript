@@ -1,0 +1,70 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header .menu
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+header .menu li
+{
+    flex-grow: 1;
+    text-align: center;
+    list-style-type: none;
+    padding: 13px 0;
+    background-color: rgb(85, 85, 85);
+    color: white;
+    cursor: pointer;
+    position: relative;
+}
+header .menu li:hover
+{
+    background-color: rgb(66, 66, 66);
+    transition: background-color ease 0.3s;
+}
+.menu li:hover:not(.active) div:first-child
+{
+    background-color: rgb(85, 85, 85);
+}
+.menu li.active, .menu li.active:hover
+{
+    background-color: rgb(18, 119, 150);
+}
+
+
+
+span.text
+{
+    position: absolute;
+    z-index: 10;
+    margin-left: 4px;
+}
+#searchBox
+{
+    position: absolute;
+    top: 100%;
+    right: 0%;
+    background-color: black;
+    padding: 12px 6px; 
+    display: block;
+    width: 400px;
+    background-color: rgb(18, 119, 150);
+    opacity: 0;
+}
+#searchinput
+{
+    width: 95%;
+    height: 100%;
+    border: none;
+    outline: none;
+    margin-bottom: 2px;
+    padding: 12px 15px;
+}
