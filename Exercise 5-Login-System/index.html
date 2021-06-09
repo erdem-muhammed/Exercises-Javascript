@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="option">
+            <span id="spanSignin" onclick="signinform()">Sign in</span>
+            <span id="spanRegister" onclick="registrationform()">Register</span>
+        </div>
+        <div id="signin-form">
+            <input type="text" placeholder="E-Mail" id="log_e">
+            <input type="text" placeholder="Password" id="log_p">
+            <button onclick="login">Login</button>
+        </div>
+
+        <div id="registration-form">
+            <input type="text" placeholder="E-Mail" id="reg_e">
+            <input type="text" placeholder="Password" id="reg_p">
+            <input type="text" placeholder="Password again">
+            <button onclick="register">Register</button>
+        </div>
+        
+        <div id="info"></div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
