@@ -74,3 +74,16 @@ body
 {
     display: none;
 }
+#info
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 70%;
+    color: white;
+    height: 5vh;
+    border: none;
+    border-radius: 12px;   
+    padding: 10px;
+}

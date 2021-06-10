@@ -2,21 +2,37 @@ var signinsForm = document.getElementById("signin-form");
 var registrationsForm = document.getElementById("registration-form");
 var spanSignin = document.getElementById("spanSignin");
 var spanRegister = document.getElementById("spanRegister");
-
+var info = document.getElementById("info");
 var reg_mail;
 var reg_pass;
 
 function register()
 {
-
+    reg_mail = document.getElementById("reg_e").value;
+    reg_pass = document.getElementById("reg_p").value;
+    info.style.backgroundColor = "#32e347";
+    info.innerHTML = "Successfully registered";
+    signinform();
 }
 
 
 function login()
 {
-    var mail = document.getElementById("log_e").value;
-    var pass = document-getElementById("log_p").value;
-       if
+    var log_mail = document.getElementById("log_e").value;
+    var log_pass = document.getElementById("log_p").value;
+       if (log_mail == reg_mail)
+       {
+           if(log_pass == reg_pass)
+           {
+               info.style.backgroundColor = "#32e347";
+               info.innerHTML = "Successfully signed in";
+           }
+       }
+       else
+       {
+           info.style.backgroundColor = "#ff2b2b";
+           info.innerHTML = "Email or Password wrong";
+       }
 }
 
 
