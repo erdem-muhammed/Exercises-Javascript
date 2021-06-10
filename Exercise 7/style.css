@@ -1,0 +1,44 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    background-color: rgb(224, 179, 162);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container
+{
+    width: 40vw;
+    height: 40vh;
+    background-color: rgb(255, 94, 0);
+    text-align: center;
+}
+.container h1
+{
+    margin-right: 10px;
+}
+.container input
+{
+    border: none;
+    border-radius: 8px;
+    padding: 8px 12px;
+    outline: none;
+    margin-right: 10px;
+}
+.container button
+{
+    color: white;
+    background-color: rgb(57, 143, 255);
+    padding: 8px 60px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
