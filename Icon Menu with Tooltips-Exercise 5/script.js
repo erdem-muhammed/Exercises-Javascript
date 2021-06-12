@@ -5,7 +5,7 @@ var isActive = false;
 
 function active(el)
 {
-
+    console.log(el)
     if(el.classList.contains("active") == false)
     {
         el.classList.add("active");
@@ -17,21 +17,20 @@ function active(el)
          last = el;
     }
 
-
-    if(el.classList.contains("search") == true)
+    const isSearchClassExist = el.classList.contains("search")
+    if(isSearchClassExist)
     {
-        if(isActive == false)
-        {
-            searchBox.style.opacity = "1";
-            isActive = true;    
-        }
-        else
-        {
-            searchBox.style.opacity = "0";
-            isActive = false;
-        }
-    
+        isActive = !isActive;
     }
+}
 
-
+function asd(){
+    if(isActive)
+    {
+        searchBox.style.opacity = "0";
+    }
+    else 
+    {
+        searchBox.style.opacity = "1";
+    }
 }
