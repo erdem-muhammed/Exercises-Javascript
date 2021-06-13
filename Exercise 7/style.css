@@ -5,19 +5,18 @@
 body
 {
     background-color: rgb(224, 179, 162);
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
     height: 100vh;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 30px;
 }
 .container
 {
     width: 40vw;
-    height: 40vh;
     background-color: rgb(255, 94, 0);
     text-align: center;
+    margin: 0 auto;
+    padding: 20px 15px;
 }
 .container h1
 {
@@ -42,3 +41,27 @@ body
     cursor: pointer;
     margin-left: 10px;
 }
+.list
+{
+    margin: 15px auto;
+    width: 28vw;
+    padding: 10px 0;
+    font-size: 18px;
+    border-radius: 4px;
+}
+.fal
+{
+    font-size: 18px;
+    cursor: pointer;
+}
+.list>div
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+    background-color: sandybrown;
+    padding: 0 2px;
+}
+
