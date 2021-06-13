@@ -3,7 +3,7 @@ var searchBox = document.getElementById("searchBox");
 
 var isActive = false;
 
-function active(el)
+function selected(el)
 {
     console.log(el)
     if(el.classList.contains("active") == false)
@@ -22,9 +22,6 @@ function active(el)
     {
         isActive = !isActive;
     }
-}
-
-function asd(){
     if(isActive)
     {
         searchBox.style.opacity = "0";
@@ -34,3 +31,4 @@ function asd(){
         searchBox.style.opacity = "1";
     }
 }
+
