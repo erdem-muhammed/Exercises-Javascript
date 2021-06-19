@@ -1,0 +1,56 @@
+*
+{
+   box-sizing: border-box;
+}
+body
+{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    font-family: 'Segoe UI';
+    color: #110707;
+}
+.container
+{
+    width: 500px;
+    background-color: burlywood;
+    padding: 20px;
+    border: 2px solid #dde6df;
+}
+.container span
+{
+    display: block;
+    margin-bottom: 5px;
+}
+.inputs input
+{
+    width: 100%;
+    padding: 10px;
+    margin: 3px 0;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+#step
+{
+    display: block;
+    text-align: center;
+}
+.buttons
+{
+    display: flex;
+    justify-content: space-between;   
+}
+.buttons button
+{
+    padding: 8px 13px;
+    color: white;
+    background-color: #e85d5d;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
