@@ -25,9 +25,13 @@ body
     display: block;
     margin-bottom: 5px;
 }
-.inputs input
+.forms
 {
-    width: 100%;
+    display: none;
+    flex-direction: column;
+}
+.forms input
+{
     padding: 10px;
     margin: 3px 0;
     border: none;
@@ -42,15 +46,20 @@ body
 .buttons
 {
     display: flex;
-    justify-content: space-between;   
+    justify-content: space-between;  
 }
 .buttons button
 {
-    padding: 8px 13px;
+    padding: 8px 15px;
     color: white;
     background-color: #e85d5d;
     border: none;
     outline: none;
     border-radius: 5px;
     cursor: pointer;
+}
+#submitted
+{
+    display: none;
+    text-align: center;
 }
