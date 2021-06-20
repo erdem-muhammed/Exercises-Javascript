@@ -9,7 +9,7 @@ function nav(n)
     if(stepCheck(n))
        return;
 
-    forms[current].getElementsByClassName.display = "none";
+    forms[current].style.display = "none";
     current += n;
     forms[current].style.display = "flex";
     document.getElementById("step").innerHTML = "Step: " + current;
