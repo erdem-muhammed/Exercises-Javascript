@@ -41,3 +41,8 @@ body
 {
     padding: 10px 15px;
 }
+#number
+{
+    width: 100%;
+    text-align: end;
+}
