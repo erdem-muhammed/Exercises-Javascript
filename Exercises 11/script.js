@@ -15,3 +15,6 @@ import { loggedIn } from "./export2.js";
 
 console.log(loggedIn);
 console.log(loggedIn());
+
+import { x as hello } from "./export2.js";
+console.log(hello);

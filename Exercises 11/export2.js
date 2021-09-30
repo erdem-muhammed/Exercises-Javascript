@@ -8,3 +8,6 @@ export
 {
     loggedIn
 }
+
+const x = 15;
+export { x }
