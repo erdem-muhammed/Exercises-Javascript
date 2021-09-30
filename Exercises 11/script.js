@@ -18,3 +18,10 @@ console.log(loggedIn());
 
 import { x as hello } from "./export2.js";
 console.log(hello);
+
+import myWorld from "./export2.js";
+console.log(myWorld());
+
+/*  everything can be imported by * 
+import * as abc from "kjnasjna.js"
+*/

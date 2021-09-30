@@ -11,3 +11,10 @@ export
 
 const x = 15;
 export { x }
+
+function abc()
+{
+    if(true)
+    return;
+}
+export default abc
