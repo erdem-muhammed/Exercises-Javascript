@@ -6,6 +6,10 @@ body
 {
     margin: 0;
 }
+header
+{
+    background-color: rgb(26, 23, 23);
+}
 .wrapper
 {
     max-width: 900px;
