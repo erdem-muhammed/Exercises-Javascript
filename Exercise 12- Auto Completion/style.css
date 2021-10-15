@@ -6,6 +6,7 @@
 :root
 {
     --primary: rgb(255, 145, 0);
+    --primary-hover: rgb(228, 137, 0);
 }
 body
 {
@@ -28,7 +29,7 @@ header
 }
 .topContainer .logo
 {
-    font-size: 1.6em;
+    font-size: 1.5em;
     font-weight: bold;
     color: white;
 }
@@ -40,7 +41,7 @@ header
 }
 .topContainer .search .search-icon
 {
-    padding: 20px;
+    padding: 14px;
     background-color: white;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
@@ -62,4 +63,19 @@ header
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     cursor: pointer;
+    transition: background-color 0.3s;
+}
+.topContainer .search .search-btn:hover
+{
+    background-color: var(--primary-hover);
+}
+.topContainer nav a
+{
+    text-decoration: none;
+    color: rgb(223, 223, 223);
+    padding: 0 8px;
+}
+.topContainer nav a:first-child
+{
+    padding-left: 0;
 }
