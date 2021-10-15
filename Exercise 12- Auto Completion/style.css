@@ -50,6 +50,7 @@ header
     padding: 12px 7px;
     border: none;
     outline: none;
+    flex-grow: 1;
 }
 .topContainer .search .search-btn
 {
@@ -57,7 +58,7 @@ header
     background-color: var(--primary);
     outline: none;
     color: white;
-    padding: 12px;
+    padding: 12px 20px;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     cursor: pointer;
