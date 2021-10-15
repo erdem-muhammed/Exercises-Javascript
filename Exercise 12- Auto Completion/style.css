@@ -24,6 +24,7 @@ header
 {
     display: flex;
     padding: 20px 0;
+    align-items: center;
 }
 .topContainer .logo
 {
@@ -49,4 +50,15 @@ header
     padding: 12px 7px;
     border: none;
     outline: none;
+}
+.topContainer .search .search-btn
+{
+    border: none;
+    background-color: var(--primary);
+    outline: none;
+    color: white;
+    padding: 12px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    cursor: pointer;
 }
