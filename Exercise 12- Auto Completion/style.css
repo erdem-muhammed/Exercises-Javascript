@@ -1,0 +1,13 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    margin: 0;
+}
+.wrapper
+{
+    max-width: 900px;
+    margin: 0 auto;
+}
