@@ -1,6 +1,7 @@
 *
 {
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 :root
 {
@@ -18,4 +19,15 @@ header
 {
     max-width: 900px;
     margin: 0 auto;
+}
+.topContainer
+{
+    display: flex;
+    padding: 20px 0;
+}
+.topContainer .logo
+{
+    font-size: 1.6em;
+    font-weight: bold;
+    color: white;
 }
