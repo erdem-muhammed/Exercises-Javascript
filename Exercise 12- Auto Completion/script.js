@@ -1,0 +1,27 @@
+$(function(
+    {
+        var availableProducts = [
+            "Apple",
+            "Banane";
+            "Strawberry",
+            "Cherry",
+            "Phone",
+            "Refrigerator",
+            "Microwave",
+            "Pencil",
+            "Cat",
+            "Dog",
+            "Tshirt",
+            "Jacket",
+            "Short",
+            "Shoes",
+            "Leather",
+            "Wallet",
+            "Scissors",
+            "Wallnut",
+            "Nuts",
+            "Marmelade",
+            "Headset"
+        ];
+    }
+))
