@@ -1,8 +1,8 @@
-$(function(
+$( function()
     {
-        var availableProducts = [
+        const availableTags = [
             "Apple",
-            "Banane";
+            "Banane",
             "Strawberry",
             "Cherry",
             "Phone",
@@ -23,5 +23,8 @@ $(function(
             "Marmelade",
             "Headset"
         ];
-    }
-))
+        $( "#tags" ).autocomplete({
+            source: availableTags
+        });
+        console.log(availableTags);
+    });
