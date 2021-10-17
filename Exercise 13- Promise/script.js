@@ -25,7 +25,7 @@ let a = new Promise(function(success, error)
 
 
 fetch("https://api.coindesk.com/v1/bpi/currentprice.json")
-.then(function(data)
+.then(function(data) // ==.then(data => data.json()) // = function(data) { return data.json() }
 {
     return data.json();
 })
@@ -33,3 +33,4 @@ fetch("https://api.coindesk.com/v1/bpi/currentprice.json")
 {
     console.log(data);
 });
+
