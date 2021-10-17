@@ -13,3 +13,8 @@ let a = new Promise(function(success, error)
 {
     return data;
 })
+.then(function(data)
+{
+    return data * 2;
+    console.log(data);
+})
