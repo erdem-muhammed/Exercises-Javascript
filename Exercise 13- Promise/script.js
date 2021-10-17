@@ -22,3 +22,10 @@ let a = new Promise(function(success, error)
 {
     console.log(data); //result
 });
+
+
+fetch("https://api.coindesk.com/v1/bpi/currentprice.json")
+.then(function(data)
+{
+    return data.json();
+})
