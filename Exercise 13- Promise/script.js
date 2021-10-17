@@ -29,3 +29,7 @@ fetch("https://api.coindesk.com/v1/bpi/currentprice.json")
 {
     return data.json();
 })
+.then(function(data)
+{
+    console.log(data);
+});
