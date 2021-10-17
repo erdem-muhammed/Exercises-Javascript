@@ -8,5 +8,8 @@ let a = new Promise(function(success, error)
         success(x);
     else
         error();
-    
+})
+.then(function(data)
+{
+    return data;
 })
