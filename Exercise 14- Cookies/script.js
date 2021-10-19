@@ -15,6 +15,10 @@ function login()
             date.setFullYear(date.getFullYear() + 1);
             Cookies.set("Loggedin", 1, { expires: date });
         }
+        else
+        {
+            Cookies.set("Loggedin", 1);
+        }
         profile.style.display = "block";
         loginForm.style.display = "none";
     }
