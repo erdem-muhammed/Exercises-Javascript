@@ -1,6 +1,3 @@
-const { add } = require("lodash");
-const { json } = require("stream/consumers");
-
 const loginForm = document.getElementById("loginForm");
 const profile = document.getElementById("userProfile");
 const us = document.getElementById("userName");
@@ -16,7 +13,16 @@ if(Cookies.get("Loggedin" == "1"))
     if(Cookies.get("cart"))
     {
         const list = JSON.parse(Cookies.get("cart"));
+        for(p of list)
+        {
+            cart.push(p);
+            cart.innerHTML += p.name + " - " + p.price + "<br>";
+        }
     }
+}
+else
+{
+    profile.style.display = "none";
 }
 function login()
 {
@@ -37,7 +43,13 @@ function login()
     }
 }
 
-funtion add(product, price)
+function add(product, price)
 {
-    
+    shoppingCart.push({
+        name: product,
+        price
+    });
+    cart.innerHTML += product + " - " + price + "<br>";
+
+    Cookies.set("cart", JSON.stringify(shoppingCart)); ////JSON.stringify for security
 }
