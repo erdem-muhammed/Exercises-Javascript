@@ -1,3 +1,4 @@
+
 const loginForm = document.getElementById("loginForm");
 const profile = document.getElementById("userProfile");
 const us = document.getElementById("userName");
@@ -9,6 +10,11 @@ function login()
     if(us.value == "admin" && pw.value == "123456")
     {
         if(checkLoggedin.checked)
+        {
+            let date = new Date();
+            date.setFullYear(date.getFullYear() + 1);
+            Cookies.set("Loggedin", 1, { expires: date });
+        }
         profile.style.display = "block";
         loginForm.style.display = "none";
     }
