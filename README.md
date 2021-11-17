@@ -13,6 +13,6 @@ Exercise 8  => Create an account // Step by step
 Exercise 9  => Scrollheight // Frequently Asked Questions                                                                                                                           
 Exercise 10 => Message count // Contact Form                                                                                                                                       
 Exercise 11 => Import/Export JS
-Exercise 12 => Auto Completion made by jQeury                                                                                                                                       
+Exercise 12 => Auto Completion made by jQuery                                                                                                                                       
 Exercise 13 => Fetch/Promise                                                                                                                                                       
 Exercise 14 => Cookies
